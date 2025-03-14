@@ -13,7 +13,6 @@ vendor/*
 var
 var/*
 .DS_Store
-.vscode/
 fixtures/
 coverage/
 coverage.xml
