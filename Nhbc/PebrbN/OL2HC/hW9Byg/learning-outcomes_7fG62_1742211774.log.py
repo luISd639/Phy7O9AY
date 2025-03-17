@@ -31,7 +31,6 @@ stats_dict_output_name = '2019_2020_2021_2022_2023_2024_prem_all_stats_dict.txt'
 #in this section we will create a nested dictionary containing the 20 teams, each with a value as another dictionary. In this dictionary we will have the game id along with the game dataframe.
 
 fixtures_clean = pd.read_csv(f'prem_clean_fixtures_and_dataframes/{fixtures_saved_name}')
-
 #creating the 'fixtures_clean' ID index which we will use to take data from this dataframe and add to each of our individual fixture stats dataframe.
 fixtures_clean_ID_index = pd.Index(fixtures_clean['Fixture ID'])
 
