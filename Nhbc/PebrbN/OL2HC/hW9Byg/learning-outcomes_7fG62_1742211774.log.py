@@ -44,7 +44,6 @@ all_stats_dict = {}
 for team in team_id_list:
     
     #working the home teams
-    team_fixture_list = []
     for i in fixtures_clean.index[:]:
         if fixtures_clean['Home Team ID'].iloc[i] == team:
             if math.isnan(fixtures_clean['Home Team Goals'].iloc[i]) == False:
